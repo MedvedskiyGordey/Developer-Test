@@ -1,0 +1,177 @@
+.selectors{
+    position: absolute;
+    width: 87.2vw;
+    height: 17.99vh;
+    left: 6.4vw;
+    top: 64.32vh;
+}
+
+.form_radio_btn label {
+	position: absolute;
+    width: 87.2vw;
+    height: 8.4vh;
+    left: 0px;
+    background: rgba(255, 255, 255, 0.101634);
+    border-radius: 32px;
+}
+
+.form_radio_btn input[type=radio] {
+	display: none;
+}
+ 
+.form_radio_btn input[type=radio]:checked + label {
+    background: rgba(255, 255, 255, 0.302434);
+    border: 1px solid #FFFFFF;
+    border-radius: 32px;
+}
+
+.text1{
+    /* Yearly access */
+
+    position: absolute;
+    width: 32.8vw;
+    height: 2.85vh;
+    left: calc(50% - 32.8vw/2 - 20.8vw);
+    top: calc(50% - 2.85vh/2 - 1.57vh);
+
+    font-family: 'SF Pro';
+    font-style: normal;
+    letter-spacing: 0.3px;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 2.85vh;
+    /* identical to box height */
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.text2{
+    /* Just $39.99 per year */
+
+    position: absolute;
+    width: 37.87vw;
+    height: 2.85vh;
+    left: calc(50% - 37.87vw/2 - 18.27vw);
+    top: calc(50% - 2.85vh/2 + 1.57vh);
+
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2.85vh;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.text3, .text5{
+    /* $0.48 per week */
+
+    position: absolute;
+    width: 16.27vw;
+    height: 5.7vh;
+    left: 54.13vw;
+    top: 1.5vh;
+
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2.85vh;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.text4{
+    position: absolute;
+    width: 33.6vh;
+    height: 2.85vh;
+    left: calc(50% - 33.6vw/2 - 20.4vw);
+    top: calc(50% - 2.85vh/2 + 0.075vh);
+
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.08vw;
+    font-size: 1rem;
+    line-height: 2.85vh;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.best_offer{
+    position: absolute;
+    width: 31.7vw;
+    height: 3vh;
+    left: 49.07vw;
+    top: -1.5vh;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.495885);
+    border-radius: 10px;
+}
+
+.best_offer_text{
+    position: absolute;
+    width: 19.73vw;
+    height: 2.25vh;
+    left: calc(50% - 19.73vw/2 + 0.13vw);
+    top: calc(50% - 2.25vh/2 - 0.075vh);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.813rem;
+    line-height: 2.25vh;
+    text-transform: uppercase;
+
+    color: #141131;
+}
+
+@media screen and (min-height: 800px) {
+    .selectors{
+        width: 87.69vw;
+        height: 14.22vh;
+        top: 66.59vh;
+    }
+    .form_radio_btn label {
+        width: 100%;
+        height: 6.64vh;
+    }
+    .text3, .text5{
+        width: 15.64vw;
+        height: 4.5vh;
+        left: 55.38vw;
+        top: 1.07vh;
+        line-height: 2.26vh;
+    }
+    .best_offer{
+        width: 30.51vw;
+        height: 2.37vh;
+        left: 51.03vw;
+        top: -1.18vh;
+    }
+    .best_offer_text{
+        line-height: 1.8vh;
+        width: 18.97vw;
+        height: 1.78vh;
+        left: calc(50% - 18.97vw/2 + 0.13vw);
+        top: calc(50% - 1.78vh/2 - 0.075vh);
+    }
+    @media (max-width: 380px) {
+        .text1, .text2, .text3, .text4, .text5{
+            font-size: 0.9rem;
+        }
+        .best_offer_text{
+            font-size: 0.77rem;
+        }
+    }
+}

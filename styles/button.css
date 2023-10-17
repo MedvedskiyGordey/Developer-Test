@@ -1,0 +1,36 @@
+.continue{
+    position: absolute;
+    width: 87.2vw;
+    height: 8.4vh;
+    left: 6.4vw;
+    top: 83.5vh;
+
+    background: #FFFFFF;
+    border-radius: 32px;
+    border-color: transparent;
+}
+.continue_text{
+    position: absolute;
+    width: 23.2vw;
+    height: 3.6vh;
+    left: calc(50% - 23.2vw/2);
+    top: calc(50% - 3.6vh/2);
+
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 590;
+    font-size: 1.25rem;
+    line-height: 3.6vh;
+    /* identical to box height, or 120% */
+    text-align: center;
+
+    color: #070B33;
+}
+
+@media screen and (min-height: 800px) {
+    .continue{
+        width: 87.69vw;
+        height: 6.64vh;
+        top: 82.7vh;
+    }
+}

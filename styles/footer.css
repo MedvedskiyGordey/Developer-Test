@@ -1,0 +1,33 @@
+.footer{
+    position: absolute;
+    width: 69.87vw;
+    height: 2.25vh;
+    left: 15.3vw;
+    bottom: 2vh;
+}
+.footer_a{
+    text-decoration: none;
+
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.781rem;
+    line-height: 2.25vh;
+    text-align: center;
+    letter-spacing: 0.15vw;
+
+    color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (min-height: 800px) {
+    .footer{
+        width: 67.18vw;
+        height: 1.78vh;
+        left: 16.67vw;
+        bottom: 3.9vh;
+    }
+    @media (max-width: 380px) {
+        .footer_a{
+            font-size: 0.7rem;
+        }
+    }
+}

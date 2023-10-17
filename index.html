@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+  </head>
+  <body>
+    <div id="app">
+      <a href="#">
+        <svg class="cross" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M7.01053 6.59968L12.4165 1.19368L12.8144 1.59155L7.4084 6.99754L13 12.5892L12.5892 13L6.99754 7.4084L1.59155 12.8144L1.19368 12.4165L6.59968 7.01053L1 1.41085L1.41085 1L7.01053 6.59968Z" stroke="white" stroke-opacity="0.4" stroke-linejoin="round"/>
+        </svg>
+      </a>
+      <h1 id="header"></h1>
+      <div class="features">
+        <div class="card1">
+          <div class="oval"></div>
+          <span class="card_text" id="card1"></span>
+        </div>
+        <div class="card2">
+          <span class="card_text" id="card2"></span>
+        </div>
+        <div class="card3" style="left: 59.46vw;">
+          <img src="/src/Bitmap4.png" class="little_pict" alt="">
+          <span class="card_text" id="card3"></span>
+        </div>
+      </div>
+      <div class="selectors">
+        <div class="form_radio_btn">
+          <input id="yearly" type="radio" name="radio" value="https://apple.com/" checked>
+          <label for="yearly">
+            <div class="text1" id="yearly_text1"></div>
+            <div class="text2" id="yearly_text2"></div>
+            <div class="text3" id="yearly_text3"></div>
+          </label>
+          <div class="best_offer">
+            <div class="best_offer_text" id="best_offer"></div>
+          </div>
+        </div>
+        <div class="form_radio_btn">
+          <input id="weekly" type="radio" name="radio" value="https://google.com/">
+          <label for="weekly" style="top: 64px;">
+            <div class="text4" id="weekly_text1"></div>
+            <div class="text5" id="weekly_text2"></div>
+          </label>
+        </div>
+      </div>
+      <button class="continue" id="continue">
+        <div class="continue_text" id="continue_text"></div>
+      </button>
+      <div class="footer">
+        <a class="footer_a" style="margin-right: 29px;" href="#" id="footer_text1"></a>
+        <a class="footer_a" style="margin-right: 26px;" href="#" id="footer_text2"></a>
+        <a class="footer_a" style="margin-right: 0px;" href="#" id="footer_text3"></a>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
